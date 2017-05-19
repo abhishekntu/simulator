@@ -1,0 +1,71 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Consumer	consumer.cpp	/^class Consumer : public sc_module {$/;"	c	file:
+Consumer	main.cpp	/^class Consumer : public sc_module {$/;"	c	file:
+IN	main.cpp	/^struct IN{$/;"	s	file:
+IN_r	main.cpp	/^struct IN_r{$/;"	s	file:
+LINK	main.cpp	/^struct LINK{$/;"	s	file:
+OUT	main.cpp	/^struct OUT{$/;"	s	file:
+OUT_r	main.cpp	/^struct OUT_r{$/;"	s	file:
+PE	main.cpp	/^PE :: PE(int val)$/;"	f	class:PE
+PE	main.cpp	/^class PE$/;"	c	file:
+Producer	main.cpp	/^class Producer : public sc_module {$/;"	c	file:
+Producer	producer.cpp	/^class Producer : public sc_module {$/;"	c	file:
+SC_CTOR	consumer.cpp	/^        SC_CTOR(Consumer) {$/;"	f	class:Consumer
+SC_CTOR	main.cpp	/^        SC_CTOR(Consumer) {$/;"	f	class:Consumer
+SC_CTOR	main.cpp	/^        SC_CTOR(Producer) {$/;"	f	class:Producer
+SC_CTOR	producer.cpp	/^        SC_CTOR(Producer) {$/;"	f	class:Producer
+_CONSUMER_	consumer.cpp	3;"	d	file:
+_PRODUCER_	producer.cpp	3;"	d	file:
+b	main.cpp	/^	int b;$/;"	m	struct:IN	file:
+b	main.cpp	/^	int b;$/;"	m	struct:LINK	file:
+b	main.cpp	/^	int b;$/;"	m	struct:OUT	file:
+b	main.cpp	/^	sc_signal<int> b;$/;"	m	struct:IN_r	file:
+b	main.cpp	/^	sc_signal<int> b;$/;"	m	struct:OUT_r	file:
+c	main.cpp	/^	int c;$/;"	m	struct:IN	file:
+c	main.cpp	/^	sc_signal<int> c;$/;"	m	struct:IN_r	file:
+clk	main.cpp	/^	sc_in<bool> clk;    \/\/ clock port$/;"	m	class:Consumer	file:
+clk	main.cpp	/^        sc_in<bool> clk;    \/\/ clock port$/;"	m	class:Producer	file:
+clk	producer.cpp	/^        sc_in<bool> clk;    \/\/ clock port$/;"	m	class:Producer	file:
+cnt	main.cpp	/^        int cnt;$/;"	m	class:Producer	file:
+cnt	producer.cpp	/^        int cnt;$/;"	m	class:Producer	file:
+consume	consumer.cpp	/^        void consume() {$/;"	f	class:Consumer
+consume	main.cpp	/^        void consume() {$/;"	f	class:Consumer
+d	main.cpp	/^	int d;$/;"	m	struct:IN	file:
+d	main.cpp	/^	int d;$/;"	m	struct:LINK	file:
+d	main.cpp	/^	int d;$/;"	m	struct:OUT	file:
+d	main.cpp	/^	sc_signal<int> d;$/;"	m	struct:IN_r	file:
+d	main.cpp	/^	sc_signal<int> d;$/;"	m	struct:OUT_r	file:
+displayconfig	main.cpp	/^void PE :: displayconfig(void)$/;"	f	class:PE
+getconfig	main.cpp	/^void PE :: getconfig(void)$/;"	f	class:PE
+in	main.cpp	/^IN in[3];		$/;"	v
+in_r	main.cpp	/^IN_r in_r[3];$/;"	v
+in_r_pe	main.cpp	/^	IN_r in_r_pe;$/;"	m	class:PE	file:
+index	main.cpp	/^	int index;$/;"	m	class:PE	file:
+linker	main.cpp	/^LINK linker[3];$/;"	v
+out	main.cpp	/^OUT out[3];$/;"	v
+out_r	main.cpp	/^OUT_r out_r[3];$/;"	v
+out_r_pe	main.cpp	/^	OUT_r out_r_pe;$/;"	m	class:PE	file:
+p	main.cpp	/^	int p;$/;"	m	struct:LINK	file:
+p	main.cpp	/^	int p;$/;"	m	struct:OUT	file:
+p	main.cpp	/^	sc_signal<int> p;$/;"	m	struct:OUT_r	file:
+pe	main.cpp	/^PE pe[4];$/;"	v
+pe_config	main.cpp	/^	int pe_config;$/;"	m	class:PE	file:
+pe_config_d	main.cpp	/^	int pe_config_d;$/;"	m	class:PE	file:
+pe_config_pb	main.cpp	/^	int pe_config_pb;$/;"	m	class:PE	file:
+process	main.cpp	/^OUT PE :: process(IN in){$/;"	f	class:PE
+process_pe	main.cpp	/^	void process_pe() {$/;"	f	class:Consumer
+produce	main.cpp	/^        void produce() {$/;"	f	class:Producer
+produce	producer.cpp	/^        void produce() {$/;"	f	class:Producer
+reg	main.cpp	/^	sc_signal<int> reg;$/;"	m	class:Consumer	file:
+sc_main	main.cpp	/^int sc_main(int argc, char *argv[]) {$/;"	f
+valid	main.cpp	/^int valid=0;$/;"	v
+value	consumer.cpp	/^        sc_in<int> value;       \/\/ data port$/;"	m	class:Consumer	file:
+value	main.cpp	/^        sc_in<int> value;       \/\/ data port$/;"	m	class:Consumer	file:
+value	main.cpp	/^        sc_out<int> value;  \/\/ data port$/;"	m	class:Producer	file:
+value	producer.cpp	/^        sc_out<int> value;  \/\/ data port$/;"	m	class:Producer	file:
+writeconfig	main.cpp	/^void PE :: writeconfig(void)$/;"	f	class:PE
